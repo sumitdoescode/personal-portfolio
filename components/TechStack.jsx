@@ -21,7 +21,7 @@ const TechStack = () => {
                 <CardTitle className={"text-2xl font-medium text-red-300"}>Tech Stack</CardTitle>
             </CardHeader>
             <CardContent>
-                <div className="grid grid-cols-7 gap-0 gap-y-8">
+                <div className="grid grid-cols-3 sm:grid-cols-5 gap-0 gap-y-8">
                     <Html />
                     <Css />
                     <Tailwind />
