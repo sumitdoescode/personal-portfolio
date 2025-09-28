@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Connect = () => {
     return (
-        <Card className={"col-span-6 md:col-span-2"}>
+        <Card className={"col-span-6 md:col-span-2 order-3 md:order-none"}>
             <CardHeader>
                 <CardTitle className={"text-3xl font-medium text-red-300"}>🤝 Let’s Connect</CardTitle>
             </CardHeader>

@@ -5,7 +5,7 @@ import { poppins } from "@/app/layout";
 
 const About = () => {
     return (
-        <Card className={"col-span-6 lg:col-span-3"}>
+        <Card className={"col-span-6 lg:col-span-3 order-2 md:order-none"}>
             <CardHeader>
                 <CardTitle className={"text-3xl font-medium text-red-300"}>👨‍💻 About Me</CardTitle>
             </CardHeader>

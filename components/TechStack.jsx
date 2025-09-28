@@ -16,7 +16,7 @@ import Clerk from "./icons/Clerk";
 
 const TechStack = () => {
     return (
-        <Card className={"col-span-6 lg:col-span-3"}>
+        <Card className={"col-span-6 lg:col-span-3 order-4 md:order-none"}>
             <CardHeader>
                 <CardTitle className={"text-3xl font-medium text-red-300"}>🛠️ Tech Stack</CardTitle>
             </CardHeader>

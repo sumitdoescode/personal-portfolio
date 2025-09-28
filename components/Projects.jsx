@@ -45,7 +45,7 @@ const projects = [
 
 const Projects = () => {
     return (
-        <Card className={"col-span-6 pb-18 max-w-5xl mx-auto"}>
+        <Card className={"col-span-6 pb-18 max-w-5xl mx-auto order-5 md:order-none"}>
             <CardHeader>
                 <CardTitle className={"text-3xl font-medium text-red-300"}>💻 Projects</CardTitle>
             </CardHeader>

@@ -21,7 +21,7 @@ const Contact = () => {
     }
 
     return (
-        <Card className={"col-span-6 mx-auto max-w-5xl w-full gap-12"}>
+        <Card className={"col-span-6 mx-auto max-w-5xl w-full gap-12 order-6 md:order-none"} id="contact">
             <CardHeader>
                 <CardTitle className={"text-3xl font-medium text-red-300"}>🚀 Let’s Work Together</CardTitle>
                 <h2 className="text-gray-300 mt-1 text-base">Use the form to drop me a message, or reach out directly via email. I’ll get back to you as soon as possible.</h2>

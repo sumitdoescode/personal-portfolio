@@ -3,7 +3,7 @@ import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader,
 
 const Intro = () => {
     return (
-        <Card className={"col-span-6 md:col-span-4"}>
+        <Card className={"col-span-6 md:col-span-4 order-1 md:order-none"}>
             <CardHeader>
                 <CardTitle className={"text-2xl font-medium"}>
                     Hello, I'm <span className="text-red-300">Sumit</span>

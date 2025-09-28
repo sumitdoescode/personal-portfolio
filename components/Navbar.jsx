@@ -26,9 +26,11 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    <Button className={"rounded-full"} variant={"outline"}>
-                        Connect
-                    </Button>
+                    <Link href="#contact">
+                        <Button className={"rounded-full"} variant={"outline"}>
+                            Connect
+                        </Button>
+                    </Link>
                 </div>
             </Container>
         </nav>
