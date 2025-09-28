@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Container from "@/components/Container";
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import Intro from "@/components/Intro";
 import Connect from "@/components/Connect";
 import TechStack from "@/components/TechStack";

@@ -53,7 +53,10 @@ const Projects = () => {
             <CardContent>
                 <div className="flex flex-col gap-10 max-w-4xl mx-auto">
                     {projects.map((project) => (
-                        <div key={project.id} className={`flex flex-col md:flex-row rounded-2xl  ${project.id === 1 ? "bg-orange-400/6" : project.id === 2 ? "bg-rose-700/10" : project.id === 3 ? "bg-green-700/10" : "bg-red-400/10"}`}>
+                        <div
+                            key={project.id}
+                            className={`flex flex-col md:flex-row rounded-2xl border shadow-2xl  ${project.id === 1 ? "bg-orange-400/6" : project.id === 2 ? "bg-rose-700/10" : project.id === 3 ? "bg-green-700/10" : "bg-red-400/10"}`}
+                        >
                             <div className="md:flex-4 lg:flex-3">
                                 <Image src={project.image} alt={project.name} width="800" height="400" className="rounded-2xl w-full" />
                             </div>

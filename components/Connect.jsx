@@ -19,12 +19,12 @@ const Connect = () => {
                         </Link>
                     </div>
                     <div className="p-2 bg-gray-800/100 rounded-full">
-                        <Link href="https://www.instagram.com/sumitdoescode/" target="_blank">
+                        <Link href="https://github.com/sumitdoescode" target="_blank">
                             <FaGithub className="text-3xl text-gray-300" />
                         </Link>
                     </div>
                     <div className="p-2 bg-green-400/20 rounded-full">
-                        <Link href="https://www.instagram.com/sumitdoescode/" target="_blank">
+                        <Link href="https://wa.me/919319560486" target="_blank">
                             <FaSquareWhatsapp className="text-3xl text-green-400" />
                         </Link>
                     </div>
