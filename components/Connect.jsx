@@ -2,14 +2,15 @@ import React from "react";
 import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareWhatsapp } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 import Link from "next/link";
+import Image from "next/image";
 
 const Connect = () => {
     return (
         <Card className={"col-span-6 md:col-span-2"}>
             <CardHeader>
-                <CardTitle className={"text-2xl font-medium text-red-300"}>Let's connect</CardTitle>
+                <CardTitle className={"text-3xl font-medium text-red-300"}>🤝 Let’s Connect</CardTitle>
             </CardHeader>
             <CardContent>
                 <div className="flex gap-4">
@@ -23,9 +24,9 @@ const Connect = () => {
                             <FaGithub className="text-3xl text-gray-300" />
                         </Link>
                     </div>
-                    <div className="p-2 bg-green-400/20 rounded-full">
-                        <Link href="https://wa.me/919319560486" target="_blank">
-                            <FaSquareWhatsapp className="text-3xl text-green-400" />
+                    <div className="p-2 bg-white/10 rounded-full flex items-center justify-center">
+                        <Link href="mailto:sumit.does.code@gmail.com?subject=Project%20Inquiry&body=Hi%20Sumit,%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" className="flex items-center justify-center">
+                            <Image src="/icons/gmail-icon.png" alt="gmail-icon" width="27" height="27" className="inline-block" />
                         </Link>
                     </div>
                 </div>

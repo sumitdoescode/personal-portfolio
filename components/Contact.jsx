@@ -21,11 +21,12 @@ const Contact = () => {
     }
 
     return (
-        <Card className={"col-span-6"}>
+        <Card className={"col-span-6 mx-auto max-w-5xl w-full gap-12"}>
             <CardHeader>
-                <CardTitle className={"text-2xl font-medium text-red-300"}>Contact me</CardTitle>
+                <CardTitle className={"text-3xl font-medium text-red-300"}>🚀 Let’s Work Together</CardTitle>
+                <h2 className="text-gray-300 mt-1 text-base">Use the form to drop me a message, or reach out directly via email. I’ll get back to you as soon as possible.</h2>
             </CardHeader>
-            <CardContent className={"max-w-5xl mx-auto w-full"}>
+            <CardContent className={"w-full"}>
                 <form action="" onSubmit={handleSubmit} className="flex flex-col gap-4">
                     <Input name="Name" type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
                     <Input name="Email" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />

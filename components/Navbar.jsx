@@ -3,30 +3,28 @@ import React, { useEffect, useState } from "react";
 import Container from "./Container";
 import { Button } from "./ui/button";
 import { IoCodeSlashSharp } from "react-icons/io5";
+import Link from "next/link";
 
 const Navbar = () => {
-    const colors = ["red-500", "blue-500", "green-500", "orange-500", "purple-500"];
-    const [color, setColor] = useState(colors[0]);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setColor(colors[Math.floor(Math.random() * colors.length)]);
-        }, 2000);
-
-        return () => clearInterval(interval);
-    }, []);
     return (
-        <nav className="py-4">
+        <nav className="fixed top-0 left-0 w-full py-4 backdrop-blur-md z-50">
             <Container>
                 <div className="flex items-center justify-between">
                     <div>
-                        <div className="flex items-center gap-2">
+                        <Link className="flex items-center gap-2" href="/">
                             <IoCodeSlashSharp className={`text-red-300 text-3xl`} />
                             <div className="flex flex-col">
                                 <h3 className="text-xl font-medium">sumitdoescode</h3>
-                                {/* <p className="text-xs text-gray-300 -mt-1">fullStack web developer</p> */}
+                                {/* linking thing */}
+                                <div className="flex items-center gap-1 -mt-1">
+                                    <span className="relative flex h-2 w-2">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                    </span>
+                                    <span className="text-sm text-gray-400">Available</span>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                     <Button className={"rounded-full"} variant={"outline"}>
                         Connect

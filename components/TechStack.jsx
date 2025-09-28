@@ -18,7 +18,7 @@ const TechStack = () => {
     return (
         <Card className={"col-span-6 lg:col-span-3"}>
             <CardHeader>
-                <CardTitle className={"text-2xl font-medium text-red-300"}>Tech Stack</CardTitle>
+                <CardTitle className={"text-3xl font-medium text-red-300"}>🛠️ Tech Stack</CardTitle>
             </CardHeader>
             <CardContent>
                 <div className="grid grid-cols-3 sm:grid-cols-5 gap-0 gap-y-8">

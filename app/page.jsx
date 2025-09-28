@@ -8,7 +8,7 @@ import Contact from "@/components/Contact";
 
 export default function Home() {
     return (
-        <section className="py-10">
+        <section className="py-24">
             <Container>
                 <div className="grid grid-cols-6 gap-8">
                     <Intro />
