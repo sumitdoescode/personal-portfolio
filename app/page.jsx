@@ -4,7 +4,7 @@ import Connect from "@/components/Connect";
 import TechStack from "@/components/TechStack";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
+// import Contact from "@/components/Contact";
 
 export default function Home() {
     return (
@@ -16,7 +16,7 @@ export default function Home() {
                     <About />
                     <TechStack />
                     <Projects />
-                    <Contact />
+                    {/* <Contact /> */}
                 </div>
             </Container>
         </section>

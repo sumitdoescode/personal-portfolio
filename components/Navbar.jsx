@@ -26,9 +26,9 @@ const Navbar = () => {
                             </div>
                         </Link>
                     </div>
-                    <Link href="#contact">
+                    <Link href="https://www.upwork.com/freelancers/~01041b73a0e5ce3cbd">
                         <Button className={"rounded-full"} variant={"outline"}>
-                            Connect
+                            Connect on Upwork
                         </Button>
                     </Link>
                 </div>
